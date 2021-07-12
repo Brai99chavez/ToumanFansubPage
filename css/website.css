@@ -1,0 +1,36 @@
+
+
+.website{
+    display: flex;
+    justify-content: space-between;
+}
+
+.website img{
+    width: 48%;
+}
+
+.website .contenedor-textos-main{
+    width: 40%;
+}
+
+@media screen and (max-width:800px){
+	.website{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .website img{
+        width: 100%;
+    }
+
+    .website .contenedor-textos-main{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:400px){
+	    .website .contenedor-textos-main{
+        margin-bottom: 30px;
+    }
+  }
